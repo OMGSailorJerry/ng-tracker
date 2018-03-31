@@ -6,6 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./traning.component.css']
 })
 export class TraningComponent implements OnInit {
+  onGoingTraining = false;
 
   constructor() { }
 
