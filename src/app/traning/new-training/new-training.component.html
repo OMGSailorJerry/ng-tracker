@@ -4,8 +4,14 @@
       <mat-card-title fxLayoutAlign="center">Time to start a workout!</mat-card-title>
       <mat-card-content fxLayoutAlign="center">
         <mat-form-field>
-          <mat-select placeholder="Choose Exercise" ngModel name="exercise" required>
-            <mat-option [value]="exercise.id" *ngFor="let exercise of exercises">
+          <mat-select
+            placeholder="Choose Exercise"
+            ngModel
+            name="exercise"
+            required>
+            <mat-option
+              [value]="exercise.id"
+              *ngFor="let exercise of exercises">
               {{ exercise.name }}
             </mat-option>
           </mat-select>
